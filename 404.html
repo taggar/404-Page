@@ -15,13 +15,14 @@
   <div class="main">
     <div class="content">
       <h1>Nothing to see here ...</h1>
-      <h2>We can't find <span id="page">xxx</span></h2>
-      <p id="backlink"><a href="https://taggar.github.io/404-Page/">Go back to where you came from?</a></p>
+      <h2>No such number, no such name ...</h2>
+      <p>We can't find <span id="page">xxx</span></p>
+      <p id="backlink"><a href="javascript:history.back()">Go back to where you came from?</a></p>
     </div>
   </div>
   <script type="text/javascript">
-   let thepage = this.window.location();
-   alert(thepage);
+   let thepage = window.location.href;
+   //alert(thepage);
    let pagespan = this.document.getElementById('page');
    pagespan.innerHTML = thepage;
   </script>
