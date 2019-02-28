@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background: url(assets/robot_PNG76.png), -webkit-linear-gradient(90deg, rgb(31, 118, 14), rgb(247, 248, 250));
+    background: url(assets/robot_PNG76.png), linear-gradient(90deg, rgb(31, 118, 14), rgb(247, 248, 250));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.content {
+    max-width: calc(100% - 800px);
+    min-width: 400px;
+    background-color: rgba(255,255,255,0.7);
+    border: 3px solid white;
+    padding: 2rem;
+    margin: auto 2rem;
+    border-radius: 1rem;
+    box-shadow: #CCC 10px 10px 25px;
+    background: linear-gradient(90deg, rgb(247, 248, 250), rgb(31, 88, 14), 0.5);
+    color: #CCC;
+    text-shadow: #000 2px 2px;
+    
+}
