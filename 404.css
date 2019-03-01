@@ -1,12 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
-
 body {
-    background: url(assets/robot_PNG76.png), -webkit-linear-gradient(90deg, rgb(31, 118, 14), rgb(247, 248, 250));
+    /* background: url(assets/robot_PNG76.png), -webkit-linear-gradient(90deg, rgb(31, 118, 14), rgb(247, 248, 250)); */
     background: url(assets/robot_PNG76.png), linear-gradient(90deg, rgb(31, 118, 14), rgb(247, 248, 250));
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right top;
     background-size: contain;
 }
 
@@ -16,10 +15,12 @@ body {
     justify-content: center;
     height: 100vh;
 }
+
 .content {
     max-width: calc(100% - 800px);
     min-width: fit-content;
-    background-color: rgba(255,255,255,0.7);
+    min-width: -moz-fit-content;
+    background-color: rgba(255, 255, 255, 0.55);
     border: 3px solid white;
     padding: 2rem;
     margin: auto 2rem;
@@ -35,20 +36,21 @@ body {
     border: 2px solid white;
     background-color: orangered;
     border-radius: 0.5em;
-    padding: 0.5em; 
+    padding: 0.5em;
     width: fit-content;
-    box-shadow: #333 4px 4px 9px;
+    width: -moz-fit-content;
+    box-shadow: #333 8px 8px 15px;
 }
 
 #backlink:hover {
-    background-color:  rgb(255, 0, 0, 0.95);
-    box-shadow: #333 8px 8px 15px;
-
+    background-color: rgb(255, 0, 0, 0.95);
+    box-shadow: #333 4px 4px 9px;
 }
 
 #backlink a {
     color: white;
-    text-shadow: none;
+    text-shadow: black 1px 1px 1px;
     font-weight: 900;
     text-decoration: none;
+    font-size: 1rem;
 }
