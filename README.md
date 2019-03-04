@@ -1,7 +1,8 @@
 # 404-Page
 
-A [404 response page](https://taggar.github.io/404-Page/404.html) with a link  back to this repo.
+Assignment: https://github.com/becodeorg/GNT-Yu-1.10/blob/master/01-The-fields/04-html-css/01-html-css-basics/6-exercise-404-html.md
 
-https://github.com/taggar/404-Page
+Result: A [404 response page](https://taggar.github.io/404-Page/404.html) with a link back to the pervious page in browser history.
+
 
 
