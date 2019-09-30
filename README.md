@@ -1,8 +1,39 @@
 # 404-Page
 
-Assignment: https://github.com/becodeorg/GNT-Yu-1.10/blob/master/01-The-fields/04-html-css/01-html-css-basics/6-exercise-404-html.md
+## Objectives
 
-Result: A [404 response page](https://taggar.github.io/404-Page/index.html) with a link back to the previous page in browser history.
+- Improve the semantic HTML
+- Know more CSS properties
+- Improve your skill in CSS positioning
+
+
+## Instructions
+
+- Create a repository in Github **404-Page**
+- Create your 404 page in **HTML** and **CSS**
+- Here's some [inspirations](https://www.google.be/search?q=landing+page&espv=2&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwjmvai3v6zTAhVBCSwKHfOIAGMQ_AUIBigB&biw=1250&bih=703#tbm=isch&q=404+page)
+- Create a button **back** on the 404 page that redirects to your GitHub profile
+- Deploy it online with [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+
+
+## Examples
+
+- [ComedyCentral](http://www.cc.com/ahcacahchacj)
+
+
+## Bonus
+
+- Add animation when we scroll over an element
+
+
+## Resources
+
+- [CSS3 Animations](https://www.w3schools.com/css/css3_animations.asp)
+- [animate.css](https://daneden.github.io/animate.css/)
+
+## Result
+
+A [404 response page](https://taggar.github.io/404-Page/index.html) with a link back to the previous page in browser history.
 
 
 
